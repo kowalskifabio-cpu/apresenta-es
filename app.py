@@ -180,8 +180,7 @@ elif selected == "Investimento":
     col_i1, col_i2, col_i3 = st.columns(3)
     col_i1.metric("Investimento Mensal", "R$ 21.450,00")
     col_i2.metric("Prazo Total", "5 Meses")
-    col_i3.metric("Total do Projeto", "R$ 107.250,00")
-
+    
     st.markdown("""
     * **Formato:** seg/qua/sex – 09h às 17h
     * **Pagamento:** Mensal mediante nota fiscal
